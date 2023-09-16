@@ -1,7 +1,7 @@
 # Assignement 1 UCI
 ## TABLE OF CONTENTS
 
--[Where?](#Where ?)
+-[Where](#Where)
 
 -[Goal](#Goal)
 
