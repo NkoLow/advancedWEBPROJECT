@@ -1,16 +1,23 @@
 {
-    "scripts": {
-        "start": "node index.js"
-    },
-    "name": "project",
-    "version": "1.0.0",
-    "description": "Fisrt assignement of the year",
-    "main": "index.js",
-    
-    "author": "Julien",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.18.2"
-    }
-    
+  "scripts": {
+    "start": "index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  
+  "author": "julien audoly",
+  "license": "ISC",
+  "description": "assignement 1",
+  "repository": {
+    "type": "git",
+    "url": "assignement1uci"
+  },
+  "keywords": [
+    "e"
+  ]
 }
