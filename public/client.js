@@ -14,7 +14,7 @@ function fetchData(arg) {
     fetch(`/api/data/${arg}`)
         .then((response) => response.json())
         .then((data) => {
-            // Display the response in the 'result' div
+           
             resultDiv.textContent = JSON.stringify(data);
         })
         .catch((error) => {
