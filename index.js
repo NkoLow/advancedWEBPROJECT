@@ -16,9 +16,12 @@ app.get('/api/data/:arg', (req, res) => {
 // Separate function for generating the JSON response
 function generateResponse(arg) {
     // You can customize this function to generate a response based on 'arg'
-    return { message: `You requested data with argument: ${arg}` };
+    return { message: `This is the button ${arg}` };
 }
+app.all('*',(req, res)=>
+    res.status(404)
+        .send('<hi>ERROR 404 ! Page not found!</h1>'))
 
-app.listen(port, () => {
+        app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
