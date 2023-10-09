@@ -1,0 +1,12 @@
+exports.up = function (knex) {
+    return knex.schema.createTable('users', function (table) {
+      table.integer('id').primary();
+      table.varchar('username');
+      table.varchar('email');
+      table.timestamp('created_at').defaultTo(knex.raw('CURRENT_TIMESTAMP'));
+    });
+  };
+  
+  exports.down = function (knex) {
+    return knex.schema.dropTable('users');
+  };
