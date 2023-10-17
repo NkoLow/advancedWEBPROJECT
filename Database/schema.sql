@@ -65,6 +65,7 @@ CREATE TABLE film_actors (
 
 
 CREATE TABLE ratings (
+    id SERIAL PRIMARY KEY,
     film_id INTEGER REFERENCES films(id),
     user_id INTEGER REFERENCES users(id),
     rating INTEGER
